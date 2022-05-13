@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serviços</title>
+    <link rel="stylesheet" href="servicos.css">
+</head>
+<body>
+<a href="interna.php">Voltar</a>
+    <div class="box">
+        <form action="#" method="POST">
+            <fieldset>
+                <legend><b>Ordem de serviço</b></legend>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="procedimento"  id="procedimento"  class="inputuser" required>
+                    <label for="procedimento" class="labelinpt">Procedimento a ser realizado</label>
+                </div>
+                <br><br><br>
+                    <label for="data"><b>Data: </b></label>
+                    <input type="date" name="data1"  id="data1" required>
+                    <br><br><br>
+                    <div class="inputbox">
+                        <input type="text" name="resumo"  id="resumo"  class="inputuser" required>
+                        <label for="resumo" class="labelinpt">Resumo</label>
+                        <br><br>
+                     <div class="inputbox">
+                        <input type="number" name="valor"  id="valor"  class="inputuser" required>
+                        <label for="valor" class="labelinpt">valor</label>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

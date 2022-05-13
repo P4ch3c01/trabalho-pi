@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de aparelho</title>
+    <link rel="stylesheet" href="servicos.css">
+</head>
+<body>
+<a href="interna.php">Voltar</a>
+    <div class="box">
+        <form action="dados_aparelho.php" method="post">
+            <fieldset>
+                <legend><b>Cadastrar aparelho</b></legend>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="tp_aparelho"  id="tp_aparelho"  class="inputuser" required>
+                    <label for="tp_aparelho" class="labelinpt">Tipo de aparelho</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="marca"  id="marca"  class="inputuser" required>
+                    <label for="marca" class="labelinpt">Marca</label>
+                </div>
+                <br><br>
+                <div class="sistema">
+                    <label>Sistema:</label>
+                        <select name="sistema" id="sistema">
+                        <option>Selecione</option>
+                        <option>Windows</option>
+                        <option>IOS</option>
+                        <option>Android</option>
+                        <option>outro</option>
+                        </select>
+                </div>
+
+                   <br><br><br>
+                    <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

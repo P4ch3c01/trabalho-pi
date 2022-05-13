@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <a href="interna.php">Voltar</a>
+    <div class="box">
+        <form action="infos_adc.php" method="POST">
+            <fieldset>
+                <legend><b>Fórmulário</b></legend>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="nome"  id="nome"  class="inputuser" required>
+                    <label for="name" class="labelinpt">Nome*</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="tel" name="telefone"  id="telefone"  class="inputuser" required>
+                    <label for="telefone" class="labelinpt">Telefone*</label>
+                    <p>Sexo:</p>
+                    <input type="radio" id="feminino" name="sexo"  value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    <br>
+                    <input type="radio" id="masculino" name="sexo"  value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <br><br>
+                   
+                        <label for="data_nasc"><b>Data Nascimento: </b></label>
+                        <input type="date" name="data_nasc"  id="data_nasc" required>
+                        
+                  
+                    <br><br><br>
+                    <div class="inputbox">
+                        <input type="text" name="cidade"  id="cidade"  class="inputuser" required>
+                        <label for="cidade" class="labelinpt">Cidade*</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="estado"  id="estado"  class="inputuser" required>
+                        <label for="estado" class="labelinpt">Estado*</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="endereco"  id="endereco"  class="inputuser" required>
+                        <label for="endereco" class="labelinpt">Endereço*</label>
+                    </div>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit"> 
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

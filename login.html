@@ -1,0 +1,46 @@
+
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="login.css">
+
+
+</head>
+<body>
+    <a href="inicio.html">Voltar</a>
+
+    <form class="formulario" action="logar.php" method="POST"> 
+        <div class="card">
+            <div class="card-top">
+                <img class="imglogin" src="login.png" alt="">
+                <h2 class="titulo">Login</h2>
+            </div>
+
+            <div class="card-group">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" required >
+            </div>
+            <div class="card-group">
+                <label>Senha</label>
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
+            </div> 
+            <br>
+            <div class="card-group">
+                <label> <input type="checkbox"> Lembrar Senha</label>
+            </div>
+            <br>    
+            <div class="card-group btn">
+               <button type="submit">LOGIN</button>
+            </div>
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
